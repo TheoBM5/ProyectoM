@@ -1,0 +1,21 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+label{
+    display: block;
+    padding: 10px 0px;
+}
+
+input{
+    width: 100%;
+    padding: 12px 20px;
+    background: rgb(31, 31, 31);
+    border: 10px;
+    border-radius: 5px;
+    color: white;
+}

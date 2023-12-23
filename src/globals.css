@@ -1,0 +1,13 @@
+/* .h-screen{
+    height: 100vh;
+}
+.flex{
+    display: flex;
+}
+*/
+
+body{
+    background: rgb(18,88,184);
+    background: linear-gradient(177deg, rgba(18,88,184,1) 0%, rgba(0,0,0,1) 100%);
+    color:aliceblue;
+} 

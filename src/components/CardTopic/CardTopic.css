@@ -1,0 +1,52 @@
+.Tarjeta {
+    display: flex;
+    padding: 10px 20px;
+    height: 200px;
+    width: 350px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff; /* Color del texto */
+    background-color: #141414; /* Color de fondo del botón */
+    border: 1px solid #161616; /* Borde del botón */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.Tarjeta:hover {
+    border:  3px solid blue;
+}
+
+.description-card{
+    opacity: .6;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.topic, .description-card{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.topic-card-header {
+    display: flex;
+    align-items: center;
+    gap: 4px
+  }
+  
+  .card-info{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .card-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 1000px;
+  }

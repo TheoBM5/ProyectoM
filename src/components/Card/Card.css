@@ -1,0 +1,30 @@
+.card {
+    width: 700px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color:rgb(1, 55, 109); ; /* Fondo de la tarjeta */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para efecto de elevación */
+  
+    /* Ajustes para hacer que la tarjeta sobresalga */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .card:before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    background: rgb(0, 63, 126); /* Colores del fondo que sobresale */
+    border-radius: 8px;
+    z-index: -1;
+  }
+
+  .botonesLinea{
+    display: flexbox;
+    justify-content:space-around;
+  }
