@@ -4,6 +4,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 label{
@@ -12,11 +13,36 @@ label{
 }
 
 input{
-    width: 100%;
+    width: 75%;
     padding: 12px 20px;
+    margin: 20px 20px;
     background: rgb(31, 31, 31);
     border: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
 }
 
+.button-conteiner{
+    display: flex;
+    justify-content: end;
+    
+    margin: 20px;
+}
+
+.card-up{
+    background-color: #141414e7; 
+    height: 490px;
+    width: 350px;
+    padding: 20px, 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.733);
+}
+
+.title-up{
+    padding: 25px 20px 0px 30px;
+}
+
+.sub-description{
+    opacity: 0.6;
+    margin-left: 30px;
+}

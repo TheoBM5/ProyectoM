@@ -22,7 +22,7 @@
 .botonEnlace {
     display: inline-block;
     padding: 10px 20px;
-    text-align: center;
+    text-align:left;
     text-decoration: none;
     color: #fff; /* Color del texto */
     /* background-color: #0067ac; /* Color de fondo del botón 
@@ -38,11 +38,3 @@
 .botonEnlace:hover {
     background-color: #2980b9; /* Cambiar color de fondo al pasar el ratón */
   }
-
-.deck{
-  display: flex;
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  width: 1000px;
-}

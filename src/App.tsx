@@ -3,8 +3,9 @@ import SigninForm from './_auth/forms/SigninForm';
 import { Home } from './_root/pages';
 import SignupForm  from './_auth/forms/SignupForm';
 import AuthLayout from './_auth/AuthLayout';
-import RootLayout from './_root/RootLayout';
+import RootLayout from './_root/Root/RootLayout';
 import Explore from './_root/pages/Explore';
+import Study from './_root/pages/Study/Study';
 
 import './globals.css';
 
@@ -19,9 +20,9 @@ const App = () => {
 
             <Route element={<RootLayout/>}>
                 <Route index element={<Home />}/>
-                <Route path="/explore" element={<Explore />} />
-
             </Route>
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/study" element={<Study />} />
         </Routes>
     </main>
   );

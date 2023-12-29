@@ -13,10 +13,11 @@ export function Card() {
         </div>
       </div>
       <div className='botonesLinea'>
-        <Button />
-        <Button />
-        <Button />
-        <Button />
+        <Button type='button-red' text="Muy Mal"/>
+        <Button type='button-orange' text="Mal"/>
+        <Button type='button-yellow' text="Regular"/>
+        <Button type='button-green' text="Bien"/>
+        
       </div>
     </>
   );

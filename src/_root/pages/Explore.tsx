@@ -2,7 +2,11 @@
 import Card from "../../components/Card/Card"
 const Explore = () => {
   return (
-    <Card />
+    <>
+      <a href="/RootLayout"></a>
+      <Card />
+    </>
+    
   )
 }
 

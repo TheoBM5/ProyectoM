@@ -6,16 +6,41 @@ body{
     min-height: 100vh;
 }
 
-label{
-    display: block;
-    padding: 10px 0px;
-}
 
-input{
-    width: 100%;
+.inputIn{
+    width: 75%;
     padding: 12px 20px;
+    margin: 20px 20px;
     background: rgb(31, 31, 31);
     border: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     color: white;
+}
+
+.titleIn{
+    padding: 20px 20px;
+}
+.button-conteiner2{
+    width: 20px;
+    height: 10px;
+    margin: 20px;
+}
+
+.cardIn{
+    background-color: #141414e7; 
+    height: 400px;
+    width: 350px;
+    padding: 20px, 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.733);
+}
+
+a{
+    color:aliceblue;
+}
+
+.sub-password{
+    padding: 30px 20px;
+    opacity: .6;
+    
 }

@@ -6,7 +6,7 @@
     text-align: center;
     text-decoration: none;
     color: #ffffff; /* Color del texto */
-    background-color: #141414; /* Color de fondo del botón */
+    background-color: #141414; 
     border: 1px solid #161616; /* Borde del botón */
     border-radius: 20px; /* Bordes redondeados */
     transition: background-color 0.3s ease;

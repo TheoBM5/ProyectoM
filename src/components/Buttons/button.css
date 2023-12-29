@@ -1,5 +1,44 @@
-button {
+.button-accept {
     background: rgb(0, 0, 0);
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 8px 22px;
+    color: azure;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.button-accept:hover 
+{
+    content: '';
+    border:  3px solid blue;
+}
+
+
+
+.button-red{
+    background: rgb(255, 124, 124);
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 8px 22px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.button-red:hover 
+{
+    content: '';
+    border:  3px solid rgb(255, 114, 114);
+}
+
+
+.button-green{
+    background: rgb(159, 255, 180);
     cursor: pointer;
     border: 2px solid transparent;
     padding: 16px 32px;
@@ -10,10 +49,45 @@ button {
     border-radius: 12px;
 }
 
-
-
-button:hover {
+button-green:hover 
+{
     content: '';
-    border:  3px solid blue;
+    border:  3px solid rgb(27, 255, 130);
+}
 
+
+.button-orange{
+    background: rgb(255, 201, 83);
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+button-orange:hover 
+{
+    content: '';
+    border:  3px solid rgb(255, 193, 23);
+}
+
+.button-yellow{
+    background: #fffd6d;
+    cursor: pointer;
+    border: 2px solid transparent;
+    padding: 16px 32px;
+    color: azure;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+button-yellow:hover 
+{
+    content: '';
+    border:  3px solid rgb(27, 255, 130);
 }
