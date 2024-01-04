@@ -1,18 +1,18 @@
-export const sidebarlinks = [
+export const sidebarLinks = [
 {
-    imgurl:"",
+    imgURL:"/assets/icons/home.svg",
     route: "/",
     label: "Home",
 },
 
 {
-    imgurl:"",
+    imgURL:"/assets/icons/play-card.svg",
     route: "/study",
     label: "Tarjetas",
 },
 
 {
-    imgurl:"",
+    imgURL:"/assets/icons/settings.svg",
     route: "/explore",
     label: "Configuracion",
 }
